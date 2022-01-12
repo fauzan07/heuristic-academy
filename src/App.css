@@ -1,38 +1,126 @@
-.App {
-  text-align: center;
+html {scroll-behavior: smooth;}
+body{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    /* padding-top: 50px; */
+    line-height: 1.5;
+    background-color: #f8f9fa!important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.wrapper{
+    padding-top: 60px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.main{
+    margin-left: 300px; 
+    padding: 0px 5px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 600;
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: none;
+    color: #444;
+}
+h1, .h1 {font-size: 1.9em;}
+h2, .h2 {font-size: 1.7em;}
+h3, .h3 {font-size: 1.15em;}
+h4, .h4 {font-size: 1.12em;}
+h5, h6, .h5, .h6{font-size: 0.9em; }
+
+p,li {color: #666; font-size: 0.9em;}
+a {color: #444; text-decoration: none;  transition: 0.3s;}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #962A30;
+    color: #fff;
+    cursor: pointer;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .topbtn button:hover{
+      background: #000;
+      color: #fff;
   }
-  to {
-    transform: rotate(360deg);
-  }
+
+.btn-primary{
+    background-color:#962A30;
 }
+
+.text-primary{
+    color:#962A30 !important;
+}
+
+.btn-outline-primary{
+    color:#962A30;
+    border: 1px solid #962A30;
+    font-size: 0.8em;
+}
+
+.btn-outline-primary:hover{
+    background-color: #962A30;
+}
+
+::placeholder{
+    font-size: 0.9em;
+}
+
+.bg-border-btm{
+    /* background: #111213; */
+    border-bottom: 3px solid #99004d;
+  }
+
+.main-page{
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.main-head{
+    font-family: 'Fugaz One', cursive;
+    font-size: 2.5em;
+    word-spacing: 2%;
+}
+
+.center-head{
+    font-family: 'Fugaz One', cursive;
+    font-size: 2em;
+    word-spacing: 2%;
+}
+
+.my-info a{
+    text-decoration: none;
+    color: #000;
+    font-style: inherit;
+  }
+
+  .my-info{
+      font-size: 1.2em;
+  }
+
+  .text-facebook{
+    color: #43983b;
+    font-size: 3em;
+    padding-right: 12px;
+  }
+  
+  .text-insta{
+    color: #da257f;
+    font-size: 3em;
+    padding-right: 10px;
+  }
+
+  .text-map{
+    color: #da2525;
+    font-size: 3em;
+    padding-right: 10px;
+  }
