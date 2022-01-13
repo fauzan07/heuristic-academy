@@ -76,7 +76,12 @@ a {color: #444; text-decoration: none;  transition: 0.3s;}
 .bg-border-btm{
     /* background: #111213; */
     border-bottom: 3px solid #99004d;
-  }
+}
+
+.bg-border-top{
+    /* background: #111213; */
+    border-top: 3px solid #99004d;
+}
 
 .main-page{
     display: flex;

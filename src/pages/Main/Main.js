@@ -27,10 +27,10 @@ function Main(props) {
             <section className="main-page bg-white">
             <Container>
                 <Row className="justify-content-md-center">
-                    <Col xs lg="5" md={6}>
+                    <Col lg="5" md={6}>
                         <img src={MainBanner} className="img-fluid"  alt="main-banner"/>
                     </Col>
-                    <Col xs lg="7" md={6} className="text-center">
+                    <Col lg="7" md={6} className="text-center">
                         <h1 className="main-head">Front-end Development Course</h1>
                         <h4>Welcome to our front-end web developer learning pathway!</h4>
                         <p>Here we provide you with a structured course that will teach you all you need to know to become a front-end web developer. Work through each section, learning new skills (or improving existing ones) as you go along. Each section includes exercises and assessments to test your understanding before you move forward.</p>
@@ -43,7 +43,7 @@ function Main(props) {
             <Container>
                 <Row className="justify-content-md-center">
                     <h1 className="text-center center-head">Activites</h1>
-                    <Col xs lg="7" md={10}>
+                    <Col lg="7" md={6}>
                     <h4>Heuristic Academy provide you</h4>
                         <ul>
                             <li className="py-2">- Hands-on Experience on Web development Projects </li>
@@ -54,7 +54,7 @@ function Main(props) {
                             <li className="py-2">- 100% help to grab jobs</li>
                         </ul>
                     </Col>
-                    <Col xs lg="5" md={6}>
+                    <Col lg="5" md={6}>
                         <img src={ActivityBanner} className="img-fluid"  alt="activity-banner"/>
                     </Col>
                 </Row>
@@ -66,10 +66,10 @@ function Main(props) {
             <Container>
                 <Row className="justify-content-md-center">
                 <h1 className="text-center center-head pb-3">Front End Developer Course Details</h1>
-                    <Col xs lg="4" md={6}>
-                        <img src={Course} className="img-fluid"  alt="main-banner"/>
+                    <Col lg="4" md={6}>
+                        <img src={Course} className="img-fluid shadow"  alt="main-banner"/>
                     </Col>
-                    <Col xs lg="7" md={6} lg={{ offset: 1 }}>
+                    <Col lg="7" md={6} lg={{ offset: 1 }}>
                         <h4 className="mid-head pb-5 pt-4">Get started with the Front End Developer Program and explore everything about the program.</h4>
                         <p>Fill the form and get enrolled  for 5 Month Front End Development Program</p>
                         <p>Last date of enrollment is 25th January 2021.</p>
@@ -86,13 +86,13 @@ function Main(props) {
             <Container>
                 <Row className="justify-content-md-center">
                 <h1 className="text-center center-head pb-3">Our Certification</h1>
-                    <Col xs lg="7" md={6}>
+                    <Col lg="7" md={6}>
                         <h4 className="mid-head pb-5 pt-4">Become a certified Front End developer, perfect your coding skills and accelerate your career with Heuristic Academy to get your dream job.</h4>
                         {/* <p>After complition of course </p> */}
                         <p>Talk about your Front End Developer certification on LinkedIn, Twitter, Facebook, boost your resume, or frame it - tell your friends and colleagues about it.</p>
                     </Col>
-                    <Col xs lg="5" md={6}>
-                        <img src={Certificate} className="img-fluid"  alt="main-banner"/>
+                    <Col lg="5" md={6}>
+                        <img src={Certificate} className="img-fluid shadow"  alt="main-banner"/>
                     </Col>
                 </Row>
             </Container>
@@ -102,7 +102,7 @@ function Main(props) {
             <Container>
                 <Row className="justify-content-md-center">
                 <h1 className="text-center center-head pb-3">Contact Us</h1>
-                    <Col xs lg="10" md={6}>
+                    <Col lg="10" md={10}>
                     <p class="my-info text-center pt-4">You can contact us on <a href="https://gmail.com" target="blank">email.heuristicacademy.in</a> or <a href="tel:8097603225">8097603225</a> , <a href="tel:7710854491">7710854491</a> or connect with us on any of the following platforms below:</p>
                     <div class="media-icon pt-5">
                     <ul class="d-flex list-unstyled justify-content-center">
@@ -111,6 +111,19 @@ function Main(props) {
                             <li><a href="https://g.page/zayn-academy?share" target="blank"><i class="text-map fas fa-map-marker-alt" aria-hidden="true"></i></a></li>            
                         </ul>
                         </div>
+                    </Col>
+                </Row>
+            </Container>
+            </section>
+
+            <section className="foot bg-dark bg-border-btm bg-border-top py-4">
+            <Container>
+                <Row className="justify-content-md-center">
+                    <Col lg="12" md={6}>
+                    <div className="d-flex justify-content-between">
+                    <p class="text-white"><small>&copy;Copyright &copy;All rights reserved</small></p>
+                    <p class="text-white"><small> This site by Heuristic Academy</small></p>
+                    </div>
                     </Col>
                 </Row>
             </Container>
