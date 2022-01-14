@@ -103,7 +103,7 @@ function Main(props) {
                 <Row className="justify-content-md-center">
                 <h1 className="text-center center-head pb-3">Contact Us</h1>
                     <Col lg="10" md={10}>
-                    <p class="my-info text-center pt-4">You can contact us on <a href="https://gmail.com" target="blank">email.heuristicacademy.in</a> or <a href="tel:8097603225">8097603225</a> , <a href="tel:7710854491">7710854491</a> or connect with us on any of the following platforms below:</p>
+                    <p class="my-info text-center pt-4">You can contact us on <a href="https://gmail.com" target="blank">Info@heuristicacademy.in</a> or <a href="tel:+918097603225">8097603225</a> , <a href="tel:+917710854491">7710854491</a> or connect with us on any of the following platforms below:</p>
                     <div class="media-icon pt-5">
                     <ul class="d-flex list-unstyled justify-content-center">
                             <li><a href="https://api.whatsapp.com/send?phone=8097603225" target="blank"><i class="text-facebook fab fa-whatsapp" aria-hidden="true"></i></a></li>
