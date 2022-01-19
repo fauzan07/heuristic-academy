@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/heuristic-academy/static/css/main.32d63a31.css",
+    "main.js": "/heuristic-academy/static/js/main.2e6e5595.js",
+    "static/js/787.09b4c3f7.chunk.js": "/heuristic-academy/static/js/787.09b4c3f7.chunk.js",
+    "static/media/activities-banner.png": "/heuristic-academy/static/media/activities-banner.8e47e47ba6075b603405.png",
+    "static/media/course.jpg": "/heuristic-academy/static/media/course.6cb13a6150b0a529a98e.jpg",
+    "static/media/certificate.jpg": "/heuristic-academy/static/media/certificate.e27b4fdf7d84e05d1ab4.jpg",
+    "static/media/kido-logo.jpg": "/heuristic-academy/static/media/kido-logo.b5c9573f6115ea71f670.jpg",
+    "static/media/main-banner.png": "/heuristic-academy/static/media/main-banner.13f1d9e0d46b404f74d8.png",
+    "index.html": "/heuristic-academy/index.html",
+    "main.32d63a31.css.map": "/heuristic-academy/static/css/main.32d63a31.css.map",
+    "main.2e6e5595.js.map": "/heuristic-academy/static/js/main.2e6e5595.js.map",
+    "787.09b4c3f7.chunk.js.map": "/heuristic-academy/static/js/787.09b4c3f7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.32d63a31.css",
+    "static/js/main.2e6e5595.js"
+  ]
+}
