@@ -3,9 +3,17 @@ import Link from 'next/link';
 import Head from 'next/head';
 import Image from 'next/image';
 import { isMobile } from "react-device-detect";
-
+if (typeof window !== "undefined") {
+  
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)}
+  gtag('js', new Date());
+  gtag('config', 'G-6JW6YCP2XW');
+  
+}
 
 const Header = () => {
+
 
 
   if(isMobile){
@@ -15,6 +23,7 @@ const Header = () => {
       // }
     });
   }
+
 
   return (
     <>
@@ -31,6 +40,13 @@ const Header = () => {
     <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=Permanent+Marker&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
     <title>Heuristic Academy</title>
+
+    {/* //  <!-- Google tag (gtag.js) --> */}
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-6JW6YCP2XW"></script>
+      {/* <script> */}
+       
+      {/* </script> */}
+  
   </Head>
   <header>
   <Navbar expand="lg" fixed="top"  bg="light">

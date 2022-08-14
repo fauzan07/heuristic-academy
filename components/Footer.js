@@ -27,10 +27,10 @@ const Footer = () => {
   }else{
     $('.navbar').addClass("scrolled");
     $('.dropdown-menu').addClass("drop-scrolled");
-    $('#logo-image').attr("src","../assets/white-logo.png");
+    $('#logo-image').attr("src","/assets/white-logo.png");
   }
  });
-  
+
 
   return (
     <>      
