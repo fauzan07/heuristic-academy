@@ -101,7 +101,7 @@ function Courses() {
                             Participants will experience a unique learning process that includes offline masterclass lectures, hands-on labs, hackathons, workshops, industry interactions & Career counselling.
                             </p>
                             <div className="d-flex justify-content-between">
-                                <a className="btn btn-sm btn-primary" href="/assets/FS-course.pdf" download>Download Brodure</a>
+                                <a className="btn btn-sm btn-primary" href="/assets/FS-course.pdf" download>Download Brochure</a>
                                 <a className="btn btn-sm btn-primary" onClick={openNav}>Enroll Now</a>
                             </div>
                             </Modal.Body>
@@ -143,7 +143,7 @@ function Courses() {
                             Participants will experience a unique learning process that includes offline masterclass lectures, hands-on labs, hackathons, workshops, industry interactions & Career counselling.
                             </p>
                             <div className="d-flex justify-content-between">
-                                <a className="btn btn-sm btn-primary" href="/assets/FE-course.pdf" download>Download Brodure</a>
+                                <a className="btn btn-sm btn-primary" href="/assets/FE-course.pdf" download>Download Brochure</a>
                                 <a className="btn btn-sm btn-primary" onClick={openNav}>Enroll Now</a>
                             </div>
                             </Modal.Body>
@@ -185,7 +185,7 @@ function Courses() {
                             Participants will experience a unique learning process that includes offline masterclass lectures, hands-on labs, hackathons, workshops, industry interactions & Career counselling.
                             </p>
                             <div className="d-flex justify-content-between">
-                                <a className="btn btn-sm btn-primary" href="/assets/BE-course.pdf" download>Download Brodure</a>
+                                <a className="btn btn-sm btn-primary" href="/assets/BE-course.pdf" download>Download Brochure</a>
                                 <a className="btn btn-sm btn-primary" onClick={openNav}>Enroll Now</a>
                             </div>
                             </Modal.Body>
@@ -226,7 +226,7 @@ function Courses() {
                             Participants will experience a unique learning process that includes offline masterclass lectures, hands-on labs, hackathons, workshops, industry interactions & Career counselling.
                             </p>
                             <div className="d-flex justify-content-between">
-                                <a className="btn btn-sm btn-primary" href="/assets/EM-course.pdf" download>Download Brodure</a>
+                                <a className="btn btn-sm btn-primary" href="/assets/EM-course.pdf" download>Download Brochure</a>
                                 <a className="btn btn-sm btn-primary" onClick={openNav}>Enroll Now</a>
                             </div>
                             </Modal.Body>
@@ -269,7 +269,7 @@ function Courses() {
 
                             </p>
                             <div className="d-flex justify-content-between">
-                                <a className="btn btn-sm btn-primary" href="/assets/ST-course.pdf" download>Download Brodure</a>
+                                <a className="btn btn-sm btn-primary" href="/assets/ST-course.pdf" download>Download Brochure</a>
                                 <a className="btn btn-sm btn-primary" onClick={openNav}>Enroll Now</a>
                             </div>
                             </Modal.Body>
@@ -310,7 +310,7 @@ function Courses() {
                             Participants will experience a unique learning process that includes offline and online[Hybrid Based] masterclass lectures, hands-on labs, hackathons, workshops, industry interactions & Career counselling.
                             </p>
                             <div className="d-flex justify-content-between">
-                                <a className="btn btn-sm btn-primary" href="/assets/DS-course.pdf" download>Download Brodure</a>
+                                <a className="btn btn-sm btn-primary" href="/assets/DS-course.pdf" download>Download Brochure</a>
                                 <a className="btn btn-sm btn-primary" onClick={openNav}>Enroll Now</a>
                             </div>
                             </Modal.Body>
@@ -350,7 +350,7 @@ function Courses() {
                             The 5-month Programme in Electrical Engg Design  enables learners to build, Helps in understanding industry standard design techniques, flows and tools involved in design and maintenance of Electrical Systems,Lightning the Spaces.
                             </p>
                             <div className="d-flex justify-content-between">
-                                <a className="btn btn-sm btn-primary" href="/assets/EL-course.pdf" download>Download Brodure</a>
+                                <a className="btn btn-sm btn-primary" href="/assets/EL-course.pdf" download>Download Brochure</a>
                                 <a className="btn btn-sm btn-primary" onClick={openNav}>Enroll Now</a>
                             </div>
                             </Modal.Body>
