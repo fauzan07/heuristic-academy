@@ -309,10 +309,13 @@ function Courses() {
                                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                         class: "card item shadow-sm mx-2",
                                         children: [
-                                            /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                                src: "assets/full-stack-hero.jpg",
-                                                className: "card-img-top img-fluid",
-                                                alt: "fullstack-course"
+                                            /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                                height: "160",
+                                                width: "250",
+                                                objectFit: "cover",
+                                                src: "/assets/full-stack-hero.jpg",
+                                                alt: "fullstack-course",
+                                                layout: "responsive"
                                             }),
                                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                                 class: "card-body",
@@ -374,10 +377,13 @@ function Courses() {
                                                     }),
                                                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)((Modal_default()).Body, {
                                                         children: [
-                                                            /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                                                src: "assets/full-stack-hero.jpg",
-                                                                className: "card-img-top img-fluid",
-                                                                alt: "fullstack-course"
+                                                            /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                                                height: "450",
+                                                                width: "800",
+                                                                objectFit: "cover",
+                                                                src: "/assets/full-stack-hero.jpg",
+                                                                alt: "fullstack-course",
+                                                                layout: "responsive"
                                                             }),
                                                             /*#__PURE__*/ jsx_runtime_.jsx("h4", {
                                                                 className: "my-4 ",
@@ -393,7 +399,7 @@ function Courses() {
                                                                         className: "btn btn-sm btn-primary",
                                                                         href: "/assets/FS-course.pdf",
                                                                         download: true,
-                                                                        children: "Download Brodure"
+                                                                        children: "Download Brochure"
                                                                     }),
                                                                     /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                                                         className: "btn btn-sm btn-primary",
@@ -411,10 +417,13 @@ function Courses() {
                                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                         class: "card item shadow-sm mx-2",
                                         children: [
-                                            /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                                src: "assets/front-end-hero.jpg",
-                                                className: "card-img-top img-fluid",
-                                                alt: "front-end-course"
+                                            /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                                height: "160",
+                                                width: "250",
+                                                objectFit: "cover",
+                                                src: "/assets/front-end-hero.jpg",
+                                                alt: "frontend-course",
+                                                layout: "responsive"
                                             }),
                                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                                 class: "card-body",
@@ -476,10 +485,13 @@ function Courses() {
                                                     }),
                                                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)((Modal_default()).Body, {
                                                         children: [
-                                                            /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                                                src: "assets/front-end-hero.jpg",
-                                                                className: "card-img-top img-fluid",
-                                                                alt: "front-end-course"
+                                                            /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                                                height: "450",
+                                                                width: "800",
+                                                                objectFit: "cover",
+                                                                src: "/assets/front-end-hero.jpg",
+                                                                alt: "frontend-course",
+                                                                layout: "responsive"
                                                             }),
                                                             /*#__PURE__*/ jsx_runtime_.jsx("h4", {
                                                                 className: "my-4 ",
@@ -495,7 +507,7 @@ function Courses() {
                                                                         className: "btn btn-sm btn-primary",
                                                                         href: "/assets/FE-course.pdf",
                                                                         download: true,
-                                                                        children: "Download Brodure"
+                                                                        children: "Download Brochure"
                                                                     }),
                                                                     /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                                                         className: "btn btn-sm btn-primary",
@@ -513,10 +525,13 @@ function Courses() {
                                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                         class: "card item shadow-sm mx-2",
                                         children: [
-                                            /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                                src: "assets/back-end-hero.jpg",
-                                                className: "card-img-top responsive",
-                                                alt: "backend-course"
+                                            /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                                height: "160",
+                                                width: "250",
+                                                objectFit: "cover",
+                                                src: "/assets/back-end-hero.jpg",
+                                                alt: "backend-course",
+                                                layout: "responsive"
                                             }),
                                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                                 class: "card-body",
@@ -578,10 +593,13 @@ function Courses() {
                                                     }),
                                                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)((Modal_default()).Body, {
                                                         children: [
-                                                            /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                                                src: "assets/back-end-hero.jpg",
-                                                                className: "card-img-top img-fluid",
-                                                                alt: "backend-course"
+                                                            /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                                                height: "450",
+                                                                width: "800",
+                                                                objectFit: "cover",
+                                                                src: "/assets/back-end-hero.jpg",
+                                                                alt: "backend-course",
+                                                                layout: "responsive"
                                                             }),
                                                             /*#__PURE__*/ jsx_runtime_.jsx("h4", {
                                                                 className: "my-4 ",
@@ -597,7 +615,7 @@ function Courses() {
                                                                         className: "btn btn-sm btn-primary",
                                                                         href: "/assets/BE-course.pdf",
                                                                         download: true,
-                                                                        children: "Download Brodure"
+                                                                        children: "Download Brochure"
                                                                     }),
                                                                     /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                                                         className: "btn btn-sm btn-primary",
@@ -615,10 +633,13 @@ function Courses() {
                                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                         class: "card item shadow-sm mx-2",
                                         children: [
-                                            /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                                src: "assets/embeded-hero.jpg",
-                                                className: "card-img-top img-fluid",
-                                                alt: "embedded-course"
+                                            /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                                height: "160",
+                                                width: "250",
+                                                objectFit: "cover",
+                                                src: "/assets/embeded-hero.jpg",
+                                                alt: "embedded-course",
+                                                layout: "responsive"
                                             }),
                                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                                 class: "card-body",
@@ -680,10 +701,13 @@ function Courses() {
                                                     }),
                                                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)((Modal_default()).Body, {
                                                         children: [
-                                                            /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                                                src: "assets/embeded-hero.jpg",
-                                                                className: "card-img-top img-fluid",
-                                                                alt: "embedded-course"
+                                                            /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                                                height: "450",
+                                                                width: "800",
+                                                                objectFit: "cover",
+                                                                src: "/assets/embeded-hero.jpg",
+                                                                alt: "embeded-course",
+                                                                layout: "responsive"
                                                             }),
                                                             /*#__PURE__*/ jsx_runtime_.jsx("h4", {
                                                                 className: "my-4 ",
@@ -699,7 +723,7 @@ function Courses() {
                                                                         className: "btn btn-sm btn-primary",
                                                                         href: "/assets/EM-course.pdf",
                                                                         download: true,
-                                                                        children: "Download Brodure"
+                                                                        children: "Download Brochure"
                                                                     }),
                                                                     /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                                                         className: "btn btn-sm btn-primary",
@@ -717,13 +741,13 @@ function Courses() {
                                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                         class: "card item shadow-sm mx-2",
                                         children: [
-                                            /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                                src: "assets/software-testing-hero.jpg",
-                                                style: {
-                                                    height: "235px"
-                                                },
-                                                className: "card-img-top img-fluid",
-                                                alt: "software-test-course"
+                                            /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                                height: "160",
+                                                width: "250",
+                                                objectFit: "cover",
+                                                src: "/assets/software-testing-hero.jpg",
+                                                alt: "software-testing-course",
+                                                layout: "responsive"
                                             }),
                                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                                 class: "card-body",
@@ -785,10 +809,13 @@ function Courses() {
                                                     }),
                                                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)((Modal_default()).Body, {
                                                         children: [
-                                                            /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                                                src: "assets/software-testing-hero.jpg",
-                                                                className: "card-img-top img-fluid",
-                                                                alt: "software-test-course"
+                                                            /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                                                height: "450",
+                                                                width: "800",
+                                                                objectFit: "cover",
+                                                                src: "/assets/software-testing-hero.jpg",
+                                                                alt: "software-testing-course",
+                                                                layout: "responsive"
                                                             }),
                                                             /*#__PURE__*/ jsx_runtime_.jsx("h4", {
                                                                 className: "my-4 ",
@@ -804,7 +831,7 @@ function Courses() {
                                                                         className: "btn btn-sm btn-primary",
                                                                         href: "/assets/ST-course.pdf",
                                                                         download: true,
-                                                                        children: "Download Brodure"
+                                                                        children: "Download Brochure"
                                                                     }),
                                                                     /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                                                         className: "btn btn-sm btn-primary",
@@ -822,13 +849,13 @@ function Courses() {
                                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                         class: "card item shadow-sm mx-2",
                                         children: [
-                                            /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                                src: "assets/data-science-hero.jpg",
-                                                style: {
-                                                    height: "235px"
-                                                },
-                                                className: "card-img-top img-fluid",
-                                                alt: "data-science-course"
+                                            /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                                height: "160",
+                                                width: "250",
+                                                objectFit: "cover",
+                                                src: "/assets/data-science-hero.jpg",
+                                                alt: "data-science-course",
+                                                layout: "responsive"
                                             }),
                                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                                 class: "card-body",
@@ -890,10 +917,13 @@ function Courses() {
                                                     }),
                                                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)((Modal_default()).Body, {
                                                         children: [
-                                                            /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                                                src: "assets/data-science-hero.jpg",
-                                                                className: "card-img-top img-fluid",
-                                                                alt: "data-science-course"
+                                                            /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                                                height: "450",
+                                                                width: "800",
+                                                                objectFit: "cover",
+                                                                src: "/assets/data-science-hero.jpg",
+                                                                alt: "data-science-course",
+                                                                layout: "responsive"
                                                             }),
                                                             /*#__PURE__*/ jsx_runtime_.jsx("h4", {
                                                                 className: "my-4 ",
@@ -909,7 +939,7 @@ function Courses() {
                                                                         className: "btn btn-sm btn-primary",
                                                                         href: "/assets/DS-course.pdf",
                                                                         download: true,
-                                                                        children: "Download Brodure"
+                                                                        children: "Download Brochure"
                                                                     }),
                                                                     /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                                                         className: "btn btn-sm btn-primary",
@@ -927,13 +957,13 @@ function Courses() {
                                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                         class: "card item shadow-sm mx-2",
                                         children: [
-                                            /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                                src: "assets/electrical-hero.jpg",
-                                                style: {
-                                                    height: "235px"
-                                                },
-                                                className: "card-img-top img-fluid",
-                                                alt: "electrical-course"
+                                            /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                                height: "160",
+                                                width: "250",
+                                                objectFit: "cover",
+                                                src: "/assets/electrical-hero.jpg",
+                                                alt: "electrical-course",
+                                                layout: "responsive"
                                             }),
                                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                                 class: "card-body",
@@ -995,10 +1025,13 @@ function Courses() {
                                                     }),
                                                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)((Modal_default()).Body, {
                                                         children: [
-                                                            /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                                                src: "assets/electrical-hero.jpg",
-                                                                className: "card-img-top img-fluid",
-                                                                alt: "electrical-course"
+                                                            /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                                                height: "450",
+                                                                width: "800",
+                                                                objectFit: "cover",
+                                                                src: "/assets/electrical-hero.jpg",
+                                                                alt: "electrical-course",
+                                                                layout: "responsive"
                                                             }),
                                                             /*#__PURE__*/ jsx_runtime_.jsx("h4", {
                                                                 className: "my-4 ",
@@ -1014,7 +1047,7 @@ function Courses() {
                                                                         className: "btn btn-sm btn-primary",
                                                                         href: "/assets/EL-course.pdf",
                                                                         download: true,
-                                                                        children: "Download Brodure"
+                                                                        children: "Download Brochure"
                                                                     }),
                                                                     /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                                                         className: "btn btn-sm btn-primary",
@@ -2098,7 +2131,7 @@ function index() {
                                             children: [
                                                 /*#__PURE__*/ jsx_runtime_.jsx("li", {
                                                     children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                                        href: "https://api.whatsapp.com/send?phone=8097603225",
+                                                        href: "https://api.whatsapp.com/send?phone=+918097603225",
                                                         target: "blank",
                                                         children: /*#__PURE__*/ jsx_runtime_.jsx("i", {
                                                             class: "text-facebook fab fa-whatsapp",

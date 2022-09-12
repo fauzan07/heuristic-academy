@@ -67,7 +67,14 @@ function Courses() {
                     <p>Choose from Bunch of courses Available with the Flexibility of Learning with Proven Method Called as <b>“Heuristic”</b> Means Learning by Doing, Not just Board and Book</p>
                   <OwlCarousel className='owl-theme mb-4' responsive={state.responsive} loop nav dots={false}>
                     <div class="card item shadow-sm mx-2">
-                        <img src="assets/full-stack-hero.jpg" className="card-img-top img-fluid" alt="fullstack-course"/>
+                        <Image
+                            height="160" 
+                            width="250" objectFit="cover"
+                            src="/assets/full-stack-hero.jpg" 
+                            alt="fullstack-course" 
+                            layout='responsive'
+                        />
+                        {/* <img src="assets/full-stack-hero.jpg" className="card-img-top img-fluid" alt="fullstack-course"/> */}
                         <div class="card-body">
                         <span className="card-top-data">VIDEO LECTURE + LIVE SESSIONS</span>
                         <h3 class="card-title text-primary ms-3 mt-2">Full Stack Development</h3>
@@ -93,7 +100,14 @@ function Courses() {
                             </Modal.Title>
                             </Modal.Header>
                             <Modal.Body>
-                            <img src="assets/full-stack-hero.jpg" className="card-img-top img-fluid" alt="fullstack-course"/>
+                            <Image
+                            height="450" 
+                            width="800" objectFit="cover"
+                            src="/assets/full-stack-hero.jpg" 
+                            alt="fullstack-course"  
+                            layout='responsive'                      
+                            />
+                            {/* <img src="assets/full-stack-hero.jpg" className="card-img-top img-fluid" alt="fullstack-course"/> */}
                             <h4 className="my-4 ">Get started with the Full Stack Developer Program and explore everything about the program.</h4>
                             <p>
                             Full Stack Development is a software profession where a developer deals with both the Frontend (client-side) and Backend (server-side) of a tech product. A Full Stack Developer is proficient in several technologies that help in developing a robust tech product, and thus play a major role in making decisions for the company. It is among the high-demand jobs in the software industry.
@@ -109,7 +123,14 @@ function Courses() {
                     </div>
 
                     <div class="card item shadow-sm mx-2">
-                        <img src="assets/front-end-hero.jpg" className="card-img-top img-fluid" alt="front-end-course"/>
+                    <Image
+                            height="160" 
+                            width="250" objectFit="cover"
+                            src="/assets/front-end-hero.jpg" 
+                            alt="frontend-course" 
+                            layout='responsive'
+                        />
+                        {/* <img src="assets/front-end-hero.jpg" className="card-img-top img-fluid" alt="front-end-course"/> */}
                         <div class="card-body">
                         <span className="card-top-data">VIDEO LECTURE + LIVE SESSIONS</span>
                         <h3 class="card-title text-primary ms-3 mt-2">Front-End Development</h3>
@@ -135,7 +156,14 @@ function Courses() {
                             </Modal.Title>
                             </Modal.Header>
                             <Modal.Body>
-                            <img src="assets/front-end-hero.jpg" className="card-img-top img-fluid" alt="front-end-course"/>
+                            <Image
+                            height="450" 
+                            width="800" objectFit="cover"
+                            src="/assets/front-end-hero.jpg" 
+                            alt="frontend-course"  
+                            layout='responsive'                      
+                            />
+                            {/* <img src="assets/front-end-hero.jpg" className="card-img-top img-fluid" alt="front-end-course"/> */}
                             <h4 className="my-4 ">Get started with the Front-End Developer Program and explore everything about the program.</h4>
                             <p>
                             Front End Development is a software profession where a developer deals with only the Frontend (client-side) of a tech product. A Front End Developer is proficient in several technologies that help in developing a robust tech product, and thus play a major role in making decisions for the company. It is among the high-demand jobs in the software industry.
@@ -151,7 +179,14 @@ function Courses() {
                     </div>
 
                     <div class="card item shadow-sm mx-2">
-                        <img src="assets/back-end-hero.jpg" className="card-img-top responsive" alt="backend-course"/>
+                    <Image
+                            height="160" 
+                            width="250" objectFit="cover"
+                            src="/assets/back-end-hero.jpg" 
+                            alt="backend-course" 
+                            layout='responsive'
+                        />
+                        {/* <img src="assets/back-end-hero.jpg" className="card-img-top responsive" alt="backend-course"/> */}
                         <div class="card-body">
                         <span className="card-top-data">VIDEO LECTURE + LIVE SESSIONS</span>
                         <h3 class="card-title text-primary ms-3 mt-2">Back-End Development</h3>
@@ -177,7 +212,14 @@ function Courses() {
                             </Modal.Title>
                             </Modal.Header>
                             <Modal.Body>
-                            <img src="assets/back-end-hero.jpg" className="card-img-top img-fluid" alt="backend-course"/>
+                            <Image
+                            height="450" 
+                            width="800" objectFit="cover"
+                            src="/assets/back-end-hero.jpg" 
+                            alt="backend-course"  
+                            layout='responsive'                      
+                            />
+                            {/* <img src="assets/back-end-hero.jpg" className="card-img-top img-fluid" alt="backend-course"/> */}
                             <h4 className="my-4 ">Get started with the Back-End Developer Program and explore everything about the program.</h4>
                             <p>
                             Back-End Development is a software profession where a developer deals with only Backend (server-side) of a tech product. A Full Stack Developer is proficient in several technologies that help in developing a robust tech product, and thus play a major role in making decisions for the company. It is among the high-demand jobs in the software industry.
@@ -192,7 +234,14 @@ function Courses() {
                         </Modal>
                     </div>
                     <div class="card item shadow-sm mx-2">
-                        <img src="assets/embeded-hero.jpg" className="card-img-top img-fluid" alt="embedded-course"/>
+                    <Image
+                            height="160" 
+                            width="250" objectFit="cover"
+                            src="/assets/embeded-hero.jpg" 
+                            alt="embedded-course" 
+                            layout='responsive'
+                        />
+                        {/* <img src="assets/embeded-hero.jpg" className="card-img-top img-fluid" alt="embedded-course"/> */}
                         <div class="card-body">
                         <span className="card-top-data">VIDEO LECTURE + LIVE SESSIONS</span>
                         <h3 class="card-title text-primary ms-3 mt-2">Embedded Development</h3>
@@ -218,7 +267,14 @@ function Courses() {
                             </Modal.Title>
                             </Modal.Header>
                             <Modal.Body>
-                            <img src="assets/embeded-hero.jpg" className="card-img-top img-fluid" alt="embedded-course"/>
+                            <Image
+                            height="450" 
+                            width="800" objectFit="cover"
+                            src="/assets/embeded-hero.jpg" 
+                            alt="embeded-course"  
+                            layout='responsive'                      
+                            />
+                            {/* <img src="assets/embeded-hero.jpg" className="card-img-top img-fluid" alt="embedded-course"/> */}
                             <h4 className="my-4 ">Get started with the Embedded Developer Program and explore everything about the program.</h4>
                             <p>
                             As per recent research, it is predicted that the Embedded market will be worth US$ 116.2 billion by 2025. This increase in global demand is due to an increase in demand for Consumer Electronics, Industrial Automation and hence there are immense opportunities in hardware and embedded design.
@@ -233,7 +289,14 @@ function Courses() {
                         </Modal>
                     </div>
                     <div class="card item shadow-sm mx-2">
-                        <img src="assets/software-testing-hero.jpg"  style={{height : "235px"}} className="card-img-top img-fluid" alt="software-test-course"/>
+                    <Image
+                            height="160" 
+                            width="250" objectFit="cover"
+                            src="/assets/software-testing-hero.jpg" 
+                            alt="software-testing-course" 
+                            layout='responsive'
+                        />
+                        {/* <img src="assets/software-testing-hero.jpg"  style={{height : "276px"}} className="card-img-top img-fluid" alt="software-test-course"/> */}
                         <div class="card-body">
                         <span className="card-top-data">VIDEO LECTURE + LIVE SESSIONS</span>
                         <h3 class="card-title text-primary ms-3 mt-2">Software Testing</h3>
@@ -259,7 +322,14 @@ function Courses() {
                             </Modal.Title>
                             </Modal.Header>
                             <Modal.Body>
-                            <img src="assets/software-testing-hero.jpg" className="card-img-top img-fluid" alt="software-test-course"/>
+                            <Image
+                            height="450" 
+                            width="800" objectFit="cover"
+                            src="/assets/software-testing-hero.jpg" 
+                            alt="software-testing-course"  
+                            layout='responsive'                      
+                            />
+                            {/* <img src="assets/software-testing-hero.jpg" className="card-img-top img-fluid" alt="software-test-course"/> */}
                             <h4 className="my-4 ">Get started with the software Testing Program and explore everything about the program.</h4>
                             <p>
                             Manual Testing is a form of software testing in which test cases are run by hand rather than using an automated tool. Both test cases are manually performed by the tester from the viewpoint of the end user. It determines whether or not the application meets the requirements specified in the requirement document. To complete nearly 100% of the software application, test cases are designed and implemented.
@@ -276,7 +346,14 @@ function Courses() {
                         </Modal>
                     </div>
                     <div class="card item shadow-sm mx-2">
-                        <img src="assets/data-science-hero.jpg" style={{height : "235px"}} className="card-img-top img-fluid" alt="data-science-course"/>
+                    <Image
+                            height="160" 
+                            width="250" objectFit="cover"
+                            src="/assets/data-science-hero.jpg" 
+                            alt="data-science-course" 
+                            layout='responsive'
+                        />
+                        {/* <img src="assets/data-science-hero.jpg" style={{height : "276px"}} className="card-img-top img-fluid" alt="data-science-course"/> */}
                         <div class="card-body">
                         <span className="card-top-data">VIDEO LECTURE + LIVE SESSIONS</span>
                         <h3 class="card-title text-primary ms-3 mt-2">Data Science</h3>
@@ -302,7 +379,14 @@ function Courses() {
                             </Modal.Title>
                             </Modal.Header>
                             <Modal.Body>
-                            <img src="assets/data-science-hero.jpg" className="card-img-top img-fluid" alt="data-science-course"/>
+                            <Image
+                            height="450" 
+                            width="800" objectFit="cover"
+                            src="/assets/data-science-hero.jpg" 
+                            alt="data-science-course"  
+                            layout='responsive'                      
+                            />
+                            {/* <img src="assets/data-science-hero.jpg" className="card-img-top img-fluid" alt="data-science-course"/> */}
                             <h4 className="my-4 ">Get started with the Data Science Program and explore everything about the program.</h4>
                             <p>
                             Applied Data Science assumes a significant role in the backdrop of massive data generated from millions of devices. Currently, the daily data output is over 2.5 quintillion bytes, likely to touch 1.7 Mb of data per second per person on the planet in the future.
@@ -317,7 +401,14 @@ function Courses() {
                         </Modal>
                     </div>
                     <div class="card item shadow-sm mx-2">
-                        <img src="assets/electrical-hero.jpg" style={{height : "235px"}} className="card-img-top img-fluid" alt="electrical-course"/>
+                    <Image
+                            height="160" 
+                            width="250" objectFit="cover"
+                            src="/assets/electrical-hero.jpg" 
+                            alt="electrical-course" 
+                            layout='responsive'
+                        />
+                        {/* <img src="assets/electrical-hero.jpg" style={{height : "276px"}} className="card-img-top img-fluid" alt="electrical-course"/> */}
                         <div class="card-body">
                         <span className="card-top-data">VIDEO LECTURE + LIVE SESSIONS</span>
                         <h3 class="card-title text-primary ms-3 mt-2">Electrical Design</h3>
@@ -343,7 +434,14 @@ function Courses() {
                             </Modal.Title>
                             </Modal.Header>
                             <Modal.Body>
-                            <img src="assets/electrical-hero.jpg" className="card-img-top img-fluid" alt="electrical-course"/>
+                            <Image
+                            height="450" 
+                            width="800" objectFit="cover"
+                            src="/assets/electrical-hero.jpg" 
+                            alt="electrical-course"  
+                            layout='responsive'                      
+                            />
+                            {/* <img src="assets/electrical-hero.jpg" className="card-img-top img-fluid" alt="electrical-course"/> */}
                             <h4 className="my-4 ">Get started with the Electrical Design Program and explore everything about the program.</h4>
                             <p>
                             DIALux is a professional lighting design software with many functions which can also be integrated depending on the workflow. It helps to design, calculate and visualise light professionally – single rooms, whole floors, buildings and outdoor scenes.
