@@ -234,6 +234,9 @@ const EnrollmentForm = () => {
                     <option value="Full stack Development">Full stack Development</option>
                     <option value="Front end Development">Front end Development</option>
                     <option value="Back end Development">Back end Development</option>
+                    <option value="Android Development">Android Development</option>
+                    <option value="Unity Development">Unity Development</option>
+                    <option value="UI/UX / Graphic Designing">UI/UX / Graphic Designing</option>
                     <option value="Software Testing">Software Testing</option>
                     <option value="Embedded Development">Embedded Development</option>
                     <option value="Data Science">Data Science</option>
