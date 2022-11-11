@@ -240,7 +240,10 @@ const EnrollmentForm = () => {
                     <option value="Software Testing">Software Testing</option>
                     <option value="Embedded Development">Embedded Development</option>
                     <option value="Data Science">Data Science</option>
+                    <option value="Digital Marketing">Digital Marketing</option>
                     <option value="Electrical Design">Electrical Design</option>
+                    <option value="Auto CAD">Auto CAD</option>
+                    <option value="Mechanical Solidworks">Mechanical Solidworks</option>
                 </Form.Select>
                 {Object.keys(selectedCourseErr).map((key)=>{
                     return <div style={{color : "red"}}><span>{selectedCourseErr[key]}</span></div>
