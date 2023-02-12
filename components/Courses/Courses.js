@@ -66,6 +66,61 @@ function Courses() {
                   <h1 className="center-head mr-3 mb-4">Our Programmes</h1>
                     <p>Choose from Bunch of courses Available with the Flexibility of Learning with Proven Method Called as <b>“Heuristic”</b> Means Learning by Doing, Not just Board and Book</p>
                   <OwlCarousel className='owl-theme mb-4' responsive={state.responsive} loop nav dots={false}>
+                  <div class="card item shadow-sm mx-2">
+                        <Image
+                            height="160" 
+                            width="250" objectFit="cover"
+                            src="/assets/mern-stack.jpg" 
+                            alt="fullstack-course" 
+                            layout='responsive'
+                        />
+                        {/* <img src="assets/full-stack-hero.jpg" className="card-img-top img-fluid" alt="fullstack-course"/> */}
+                        <div class="card-body">
+                        <span className="card-top-data">VIDEO LECTURE + LIVE SESSIONS</span>
+                        <h3 class="card-title text-primary ms-3 mt-2">MERN Stack Development</h3>
+                        <hr className='my-4'/>
+                        <ul>
+                            <li className='mb-2'>6 Months Intense Training</li>
+                            <li className='mb-2'>Flexible Timings Per Course</li>
+                            <li className='mb-2'>Certificate of Completion</li>
+                            <li className='mb-2'>Resume & Interview Training</li>
+                        </ul>
+                        <button className="btn btn-sm btn-outline-primary ms-3 mt-3" onClick={() => setShowFS(true)}>Learn More</button>
+                        </div>
+                        <Modal
+                            show={showFS}
+                            onHide={() => setShowFS(false)}
+                            dialogClassName="modal-90w"
+                            aria-labelledby="contained-modal-title-vcenter"
+                            size="lg"
+                        >
+                            <Modal.Header closeButton>
+                            <Modal.Title id="contained-modal-title-vcenter">
+                               <h3 className='text-primary'>MERN Stack Developer Course Details</h3>
+                            </Modal.Title>
+                            </Modal.Header>
+                            <Modal.Body>
+                            <Image
+                            height="450" 
+                            width="800" objectFit="cover"
+                            src="/assets/mern-stack.jpg" 
+                            alt="fullstack-course"  
+                            layout='responsive'                      
+                            />
+                            {/* <img src="assets/full-stack-hero.jpg" className="card-img-top img-fluid" alt="fullstack-course"/> */}
+                            <h4 className="my-4 ">Get started with the MERN Stack Developer Program and explore everything about the program.</h4>
+                            <p>
+                            MERN Stack Development is a software profession where a developer deals with both the Frontend (client-side) and Backend (server-side) of a tech product. A Full Stack Developer is proficient in several technologies that help in developing a robust tech product, and thus play a major role in making decisions for the company. It is among the high-demand jobs in the software industry.
+                            The 6-month Programme in Full stack Developer  enables learners to build deep tech capabilities and apply their learnings to make a static and Dynamic Website which can be used in E-Commerce or business Driven or can be a Data Accumulation Web Application,with Technologies such as React.js , Node.js , Express.js, Mongo DB , JS , GIT , HTML5,CSS3 ,Bootstrap among the many more
+                            Participants will experience a unique learning process that includes offline masterclass lectures, hands-on labs, hackathons, workshops, industry interactions & Career counselling.
+                            </p>
+                            <div className="d-flex justify-content-between">
+                                {/* <a className="btn btn-sm btn-primary" href="/assets/FS-course.pdf" download>Download Brochure</a> */}
+                                <a className="btn btn-sm btn-primary" onClick={openNav}>Enroll Now</a>
+                            </div>
+                            </Modal.Body>
+                        </Modal>
+                    </div>
                     <div class="card item shadow-sm mx-2">
                         <Image
                             height="160" 
@@ -115,7 +170,7 @@ function Courses() {
                             Participants will experience a unique learning process that includes offline masterclass lectures, hands-on labs, hackathons, workshops, industry interactions & Career counselling.
                             </p>
                             <div className="d-flex justify-content-between">
-                                <a className="btn btn-sm btn-primary" href="/assets/FS-course.pdf" download>Download Brochure</a>
+                                {/* <a className="btn btn-sm btn-primary" href="/assets/FS-course.pdf" download>Download Brochure</a> */}
                                 <a className="btn btn-sm btn-primary" onClick={openNav}>Enroll Now</a>
                             </div>
                             </Modal.Body>
@@ -171,7 +226,7 @@ function Courses() {
                             Participants will experience a unique learning process that includes offline masterclass lectures, hands-on labs, hackathons, workshops, industry interactions & Career counselling.
                             </p>
                             <div className="d-flex justify-content-between">
-                                <a className="btn btn-sm btn-primary" href="/assets/FE-course.pdf" download>Download Brochure</a>
+                                {/* <a className="btn btn-sm btn-primary" href="/assets/FE-course.pdf" download>Download Brochure</a> */}
                                 <a className="btn btn-sm btn-primary" onClick={openNav}>Enroll Now</a>
                             </div>
                             </Modal.Body>
@@ -227,7 +282,7 @@ function Courses() {
                             Participants will experience a unique learning process that includes offline masterclass lectures, hands-on labs, hackathons, workshops, industry interactions & Career counselling.
                             </p>
                             <div className="d-flex justify-content-between">
-                                <a className="btn btn-sm btn-primary" href="/assets/BE-course.pdf" download>Download Brochure</a>
+                                {/* <a className="btn btn-sm btn-primary" href="/assets/BE-course.pdf" download>Download Brochure</a> */}
                                 <a className="btn btn-sm btn-primary" onClick={openNav}>Enroll Now</a>
                             </div>
                             </Modal.Body>
@@ -282,7 +337,7 @@ function Courses() {
                             Participants will experience a unique learning process that includes offline masterclass lectures, hands-on labs, hackathons, workshops, industry interactions & Career counselling.
                             </p>
                             <div className="d-flex justify-content-between">
-                                <a className="btn btn-sm btn-primary" href="/assets/EM-course.pdf" download>Download Brochure</a>
+                                {/* <a className="btn btn-sm btn-primary" href="/assets/EM-course.pdf" download>Download Brochure</a> */}
                                 <a className="btn btn-sm btn-primary" onClick={openNav}>Enroll Now</a>
                             </div>
                             </Modal.Body>
@@ -339,7 +394,7 @@ function Courses() {
 
                             </p>
                             <div className="d-flex justify-content-between">
-                                <a className="btn btn-sm btn-primary" href="/assets/ST-course.pdf" download>Download Brochure</a>
+                                {/* <a className="btn btn-sm btn-primary" href="/assets/ST-course.pdf" download>Download Brochure</a> */}
                                 <a className="btn btn-sm btn-primary" onClick={openNav}>Enroll Now</a>
                             </div>
                             </Modal.Body>
@@ -394,7 +449,7 @@ function Courses() {
                             Participants will experience a unique learning process that includes offline and online[Hybrid Based] masterclass lectures, hands-on labs, hackathons, workshops, industry interactions & Career counselling.
                             </p>
                             <div className="d-flex justify-content-between">
-                                <a className="btn btn-sm btn-primary" href="/assets/DS-course.pdf" download>Download Brochure</a>
+                                {/* <a className="btn btn-sm btn-primary" href="/assets/DS-course.pdf" download>Download Brochure</a> */}
                                 <a className="btn btn-sm btn-primary" onClick={openNav}>Enroll Now</a>
                             </div>
                             </Modal.Body>
@@ -448,7 +503,7 @@ function Courses() {
                             The 5-month Programme in Electrical Engg Design  enables learners to build, Helps in understanding industry standard design techniques, flows and tools involved in design and maintenance of Electrical Systems,Lightning the Spaces.
                             </p>
                             <div className="d-flex justify-content-between">
-                                <a className="btn btn-sm btn-primary" href="/assets/EL-course.pdf" download>Download Brochure</a>
+                                {/* <a className="btn btn-sm btn-primary" href="/assets/EL-course.pdf" download>Download Brochure</a> */}
                                 <a className="btn btn-sm btn-primary" onClick={openNav}>Enroll Now</a>
                             </div>
                             </Modal.Body>

@@ -1,14 +1,14 @@
 {
   "../components/Courses/Courses.js -> react-owl-carousel": {
-    "id": "../components/Courses/Courses.js -> react-owl-carousel",
+    "id": 389,
     "files": [
-      "static/chunks/node_modules_react-owl-carousel_umd_OwlCarousel_js.js"
+      "static/chunks/568.2410b9312fbde8ec.js"
     ]
   },
   "../components/Testimonials/Testimonials.js -> react-owl-carousel": {
-    "id": "../components/Testimonials/Testimonials.js -> react-owl-carousel",
+    "id": 389,
     "files": [
-      "static/chunks/node_modules_react-owl-carousel_umd_OwlCarousel_js.js"
+      "static/chunks/568.2410b9312fbde8ec.js"
     ]
   }
 }

@@ -44,24 +44,60 @@ function Testimonials(props) {
                     <OwlCarousel className='owl-theme testimonials' responsive={state.responsive} loop nav dots={false}>
                     <div className="hear-from-slider border rounded shadow-sm item bg-white p-4 mx-1">
                         <div className="testi-para">
-                            <i className="here-from-p-text"><i class="fa fa-quote-left fa-2x text-primary me-3" aria-hidden="true"></i>Through start of college everyone give horrible vibes of codeing and through that I kept thinking has I chose a wrong career for my life, but after attending lecture of Fauzan Falke I got a +ve vibe that I have chosen the right path for my career.</i>
+                            <i className="here-from-p-text"><i class="fa fa-quote-left fa-2x text-primary me-3" aria-hidden="true"></i>I never thought my performance would be this great in six month of Full stack Developement. All thanks to the great faculties of Heuristic Academy . I wouldn’t have been able to make it without them. Their way of teaching, Explaining and superb guidance has really shaped my career goals.</i>
                         </div>
                         <div className="mt-4 text-end">
                             {/* <img src="../assets/test-img4.png" className="testi-img" alt="Testiprofile" /> */}
                             <div className="ml-4">
-                                <h4 className="text-primary">Aquib Naqwa</h4>
+                                <h4 className="text-primary">Jawad Shaikh</h4>
                                 <small>Student</small>
                             </div>
                         </div>
                     </div>
                     <div className="hear-from-slider border rounded shadow-sm item bg-white p-4 mx-2">
                         <div className="testi-para">
-                            <i className="here-from-p-text"><i class="fa fa-quote-left fa-2x text-primary me-3" aria-hidden="true"></i>Thanks to the Professor and teaching staff for all the help! This is a fabulous course and I would definitely recommend it to anyone interested in web development</i>
+                            <i className="here-from-p-text"><i class="fa fa-quote-left fa-2x text-primary me-3" aria-hidden="true"></i>Heuristic Academy is the place for tinkerers! The place to level up your knowledge of theory to application.With the best experienced faculty and fun to learn behaviour, we experience learning in a fun way.</i>
                         </div>
                         <div className="mt-4 text-end">
                             {/* <img src="../assets/test-img4.png" className="testi-img" alt="Testiprofile" /> */}
                             <div className="ml-4">
-                                <h4 className="text-primary">Saalim Ansari</h4>
+                                <h4 className="text-primary">Rashid Sarang</h4>
+                                <small>Student</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="hear-from-slider border rounded shadow-sm item bg-white p-4 mx-2">
+                        <div className="testi-para">
+                            <i className="here-from-p-text"><i class="fa fa-quote-left fa-2x text-primary me-3" aria-hidden="true"></i>I have been this institute for 2 months and let's be honest, I learnt skills in a deeper manner infact the faculties are so supportive and help us to grow in various skills like soft skills and technical skills.</i>
+                        </div>
+                        <div className="mt-4 text-end">
+                            {/* <img src="../assets/test-img4.png" className="testi-img" alt="Testiprofile" /> */}
+                            <div className="ml-4">
+                                <h4 className="text-primary">Kshitij Dandge</h4>
+                                <small>Student</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="hear-from-slider border rounded shadow-sm item bg-white p-4 mx-2">
+                        <div className="testi-para">
+                            <i className="here-from-p-text"><i class="fa fa-quote-left fa-2x text-primary me-3" aria-hidden="true"></i>Very helpful for career point of view and Thanks to teachers of Heuristic Academy to teach us other than syllabus to build our career.</i>
+                        </div>
+                        <div className="mt-4 text-end">
+                            {/* <img src="../assets/test-img4.png" className="testi-img" alt="Testiprofile" /> */}
+                            <div className="ml-4">
+                                <h4 className="text-primary">Sahu Sameer</h4>
+                                <small>Student</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="hear-from-slider border rounded shadow-sm item bg-white p-4 mx-2">
+                        <div className="testi-para">
+                            <i className="here-from-p-text"><i class="fa fa-quote-left fa-2x text-primary me-3" aria-hidden="true"></i>The class is awesome! The instructor spoke very clear and was very knowledgeable and patient. This was my first time taking a course in this format and it far exceeded my expectations.</i>
+                        </div>
+                        <div className="mt-4 text-end">
+                            {/* <img src="../assets/test-img4.png" className="testi-img" alt="Testiprofile" /> */}
+                            <div className="ml-4">
+                                <h4 className="text-primary">Huda Shaikh</h4>
                                 <small>Student</small>
                             </div>
                         </div>

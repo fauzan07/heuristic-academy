@@ -11,6 +11,7 @@ import Courses from '../components/Courses/Courses';
 import EnrollmentForm from '../components/EnrollmentForm/EnrollmentForm';
 import { useRouter } from "next/router";
 import Axios from "axios";
+import SchoolEnrollmentForm from '../components/SchoolEnrollmentForm/SchoolEnrollmentForm';
 
 
 // const index = () => {
@@ -21,6 +22,11 @@ import Axios from "axios";
           console.log("aaaaaaa");
         document.getElementById("mySidenav").style.width = "380px";
       }
+
+      function openSchNav() {
+        console.log("aaaaaaa");
+      document.getElementById("mySchSidenav").style.width = "380px";
+    }
 
       const [fname, setFName] = useState("");
       const [lname, setLName] = useState("");
@@ -215,6 +221,66 @@ import Axios from "axios";
       </Container>
       </section>
 
+      <section className="school py-4" id="school">
+      <Container>
+          <Row className="justify-content-md-center">
+              <h1 className="center-head mb-4">Admisson open for ICSE</h1>
+              <Col lg="5" md={6}>
+                   <Image src="/assets/childrens.jpg"  width={600} height={400} layout="responsive" className="img-fluid"  alt="main-banner"/>
+              </Col>
+              <Col lg="7" md={6}>
+                <h4 style={{fontSize : "1.4em"}} className="my-3">ICSE Grade 5 -10</h4>
+                <p>Heuristic Academy is here to help you get the most out of your child. Along with learning, the student has to deal with exam pressure, peer pressure, and, most importantly, time management.</p>
+                <p>We are here to provide them with the right kind of care and the right amount of attention to cope with the above issues and excel in their educational career.</p>
+                <h4 style={{fontSize : "1.4em"}} className="mb-3">Our Speciality :</h4>
+                <ul>
+                  <li>Mathematics and Science</li>
+                  <li>Training for KVPY & Olympiad</li>
+                </ul>
+                <a onClick={openSchNav} class="btn btn-outline-primary">Enroll Now</a>
+              </Col>
+          </Row>
+      </Container>
+      </section>
+
+
+      <section className="about py-4" id="activities">
+      <Container>
+          <Row className="justify-content-md-center">
+              <h1 className="center-head mb-4">Key Highlights of our ICSE Coaching</h1>
+              <Col lg="7" md={6}>
+              <h4>Heuristic Academy provide you</h4>
+                  <ul>
+                      <li className="py-2">- Complete syllabus clearance with conceptual knowledge. </li>
+                      <li className="py-2">- Teach Proven Tips, Tricks, and Learning Techniques. </li>
+                      <li className="py-2">- Experienced and dedicated faculty. </li>
+                      <li className="py-2">- Digital Learning. </li>
+                      <li className="py-2">- Weekly/Monthly Test Series. </li>
+                      <li className="py-2">- Report-driven analysis.</li>
+                      <li className="py-2">- One-on-One Counseling.</li>
+                      <li className="py-2">- Focus on the weaker subjects.</li>
+                  </ul>
+              </Col>
+              <Col lg="5" md={6}>
+                   <Image src="/assets/study1.jpg" width={600} height={400} layout="responsive"  alt="main-banner"/>
+              </Col>
+          </Row>
+      </Container>
+      </section>
+
+      <section className="choose-course">
+        <Container>
+          <Row className="justify-content-md-center">
+              <Col lg="9">
+                  <h2 className="center-head text-white mt-2">Choose the right coaching for you children.</h2>
+              </Col>
+              <Col lg="3" className="btn-mobile-choose">
+                <a onClick={openSchNav} class="btn btn-choose mt-2">Enroll Now</a>
+              </Col>
+          </Row>
+        </Container>
+    </section>
+
       <Courses/>
 
       <section className="about py-4" id="activities">
@@ -225,12 +291,12 @@ import Axios from "axios";
               <h4>Heuristic Academy provide you</h4>
                   <ul>
                       <li className="py-2">- 6 Months Intense Traning </li>
-                      <li className="py-2">- Hands-on Experience on Development Projects </li>
-                      <li className="py-2">- 8 projects [ 5 Minor, 3 Major] </li>
+                      <li className="py-2">- Offline E-Learning With Industrial Professionals </li>
+                      <li className="py-2">- Hands On Experience On 10 Live Projects </li>
                       <li className="py-2">- Communication Skills Development </li>
-                      <li className="py-2">- Interview preparation with Industrial Question </li>
-                      <li className="py-2">- Mock Interview</li>
-                      <li className="py-2">- 100% help to grab jobs</li>
+                      <li className="py-2">- Interview Preparations With Aptitude & Mock Interviews </li>
+                      <li className="py-2">- Campus Activities (Project Competitions & Tech Events)</li>
+                      <li className="py-2">- 100 % Job Placement Assistance</li>
                   </ul>
               </Col>
               <Col lg="5" md={6}>
@@ -240,19 +306,17 @@ import Axios from "axios";
       </Container>
       </section>
 
-    <Testimonials/>
-
       <section className="certification py-4">
       <Container>
           <Row className="justify-content-md-center">
           <h1 className="center-head pb-3">Our Certification</h1>
+              <Col lg="5" md={6}>
+                  <Image src="/assets/certificate.jpg"  width={600} height={450} layout="responsive" className="img-fluid"  alt="main-banner"/>
+              </Col>
               <Col lg="7" md={6}>
                   <h4 className="mid-head pb-5 pt-4">Become a Certified Developer, perfect your coding skills and accelerate your career with Heuristic Academy to get your dream job.</h4>
                   {/* <p>After complition of course </p> */}
                   <p>Talk about your Developer certification on LinkedIn, Twitter, Facebook, boost your resume, or frame it - tell your friends and colleagues about it.</p>
-              </Col>
-              <Col lg="5" md={6}>
-                  <Image src="/assets/certificate.jpg"  width={600} height={450} layout="responsive" className="img-fluid"  alt="main-banner"/>
               </Col>
           </Row>
       </Container>
@@ -271,6 +335,8 @@ import Axios from "axios";
           </Row>
         </Container>
     </section>
+
+    <Testimonials/>
 
     <section className='py-5' id="contact">
         <Container>
@@ -359,10 +425,16 @@ import Axios from "axios";
         </Container>
     </section>
 
-        <div id="mySidenav" class="sidenav bg-white border-right">
-        <div class="px-3 py-2">
-            <EnrollmentForm/>
-        </div>
+    <div id="mySidenav" class="sidenav bg-white border-right">
+      <div class="px-3 py-2">
+          <EnrollmentForm/>
+      </div>
+    </div>
+
+    <div id="mySchSidenav" class="sidenav bg-white border-right">
+      <div class="px-3 py-2">
+          <SchoolEnrollmentForm/>
+      </div>
     </div>
       </>
   )

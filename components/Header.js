@@ -68,6 +68,9 @@ const Header = () => {
                 <Link href="#about">
                   <a className="nav-link pe-5">About</a>
                 </Link>
+                <Link href="#school">
+                  <a className="nav-link pe-5">School Coaching</a>
+                </Link>
                 <Link href="#courses">
                   <a className="nav-link pe-5">Courses</a>
                 </Link>
