@@ -75,7 +75,7 @@ document.getElementById("mySchSidenav").style.width = "380px";
               width="480" 
               height="480"
               objectFit="contain"
-              src="/assets/icse Admission.png"
+              src="/assets/icse-admission.png"
               alt=""
               loading="eager"
             />
