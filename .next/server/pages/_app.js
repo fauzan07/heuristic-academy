@@ -5,7 +5,7 @@ exports.id = 888;
 exports.ids = [888];
 exports.modules = {
 
-/***/ 5010:
+/***/ 4836:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -28,6 +28,7 @@ const head_namespaceObject = require("next/head");
 var head_default = /*#__PURE__*/__webpack_require__.n(head_namespaceObject);
 // EXTERNAL MODULE: ./node_modules/next/image.js
 var next_image = __webpack_require__(5675);
+var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
 ;// CONCATENATED MODULE: external "react-device-detect"
 const external_react_device_detect_namespaceObject = require("react-device-detect");
 ;// CONCATENATED MODULE: ./components/Header.js
@@ -195,13 +196,25 @@ var external_jquery_default = /*#__PURE__*/__webpack_require__.n(external_jquery
 ;// CONCATENATED MODULE: external "react-scroll-to-top"
 const external_react_scroll_to_top_namespaceObject = require("react-scroll-to-top");
 var external_react_scroll_to_top_default = /*#__PURE__*/__webpack_require__.n(external_react_scroll_to_top_namespaceObject);
+;// CONCATENATED MODULE: external "react-bootstrap/Button"
+const Button_namespaceObject = require("react-bootstrap/Button");
+var Button_default = /*#__PURE__*/__webpack_require__.n(Button_namespaceObject);
+// EXTERNAL MODULE: external "react-bootstrap/Modal"
+var Modal_ = __webpack_require__(9306);
+var Modal_default = /*#__PURE__*/__webpack_require__.n(Modal_);
 ;// CONCATENATED MODULE: ./components/Footer.js
 
 
 
 
 
+
+
+
 const Footer = ()=>{
+    const { 0: show , 1: setShow  } = (0,external_react_.useState)(false);
+    const handleClose = ()=>setShow(false);
+    // const handleShow = () => setShow(true);
     (0,external_react_.useEffect)(()=>{
         function checkScroll() {
             var startY = window.innerHeight; //The point where the navbar changes in px
@@ -224,7 +237,14 @@ const Footer = ()=>{
             external_jquery_default()(".dropdown-menu").addClass("drop-scrolled");
             external_jquery_default()("#logo-image").attr("src", "/assets/white-logo.png");
         }
-    });
+        setTimeout(()=>{
+            setShow(true);
+        }, 1000);
+    }, []);
+    function openSchNav() {
+        console.log("aaaaaaa");
+        document.getElementById("mySchSidenav").style.width = "380px";
+    }
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
         children: [
             /*#__PURE__*/ jsx_runtime_.jsx("section", {
@@ -263,6 +283,44 @@ const Footer = ()=>{
                 style: {
                     backgroundColor: "#962a30"
                 }
+            }),
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)((Modal_default()), {
+                show: show,
+                onHide: handleClose,
+                children: [
+                    /*#__PURE__*/ jsx_runtime_.jsx((Modal_default()).Header, {
+                        closeButton: true,
+                        children: /*#__PURE__*/ jsx_runtime_.jsx((Modal_default()).Title, {
+                            children: /*#__PURE__*/ jsx_runtime_.jsx("h3", {
+                                children: "ICSE Admission Open"
+                            })
+                        })
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx((Modal_default()).Body, {
+                        children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                            width: "480",
+                            height: "480",
+                            objectFit: "contain",
+                            src: "/assets/icse Admission.png",
+                            alt: "",
+                            loading: "eager"
+                        }, "")
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)((Modal_default()).Footer, {
+                        children: [
+                            /*#__PURE__*/ jsx_runtime_.jsx((Button_default()), {
+                                variant: "secondary",
+                                onClick: handleClose,
+                                children: "Close"
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx((Button_default()), {
+                                variant: "primary",
+                                onClick: openSchNav,
+                                children: "Enroll Now"
+                            })
+                        ]
+                    })
+                ]
             })
         ]
     });
@@ -497,6 +555,13 @@ module.exports = require("react-bootstrap");
 
 /***/ }),
 
+/***/ 9306:
+/***/ ((module) => {
+
+module.exports = require("react-bootstrap/Modal");
+
+/***/ }),
+
 /***/ 997:
 /***/ ((module) => {
 
@@ -511,7 +576,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [311,952,910,664,675], () => (__webpack_exec__(5010)));
+var __webpack_exports__ = __webpack_require__.X(0, [311,952,910,664,675], () => (__webpack_exec__(4836)));
 module.exports = __webpack_exports__;
 
 })();

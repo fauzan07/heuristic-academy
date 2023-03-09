@@ -418,7 +418,7 @@ import SchoolEnrollmentForm from '../components/SchoolEnrollmentForm/SchoolEnrol
                     <ul class="d-flex list-unstyled ">
                       <li><a href="https://api.whatsapp.com/send?phone=+917039794283" target="blank"><i class="text-facebook fab fa-whatsapp" aria-hidden="true"></i></a></li>
                       <li><a href="https://www.instagram.com/heuristic_academy/" target="blank"><i class="text-insta fab fa-instagram" aria-hidden="true"></i></a></li>            
-                      <li><a href="https://g.page/zayn-academy?share" target="blank"><i class="text-map fas fa-map-marker-alt" aria-hidden="true"></i></a></li>            
+                      <li><a href="https://goo.gl/maps/MBQdWtrKCSdCTXcn9?share" target="blank"><i class="text-map fas fa-map-marker-alt" aria-hidden="true"></i></a></li>            
                   </ul>
                 </Col>
             </Row>

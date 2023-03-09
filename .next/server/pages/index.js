@@ -5,7 +5,7 @@ exports.id = 405;
 exports.ids = [405];
 exports.modules = {
 
-/***/ 6837:
+/***/ 9733:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -304,9 +304,9 @@ function Testimonials(props) {
 /* harmony default export */ const banner3 = ({"src":"/_next/static/media/banner3.cc1632e1.jpg","height":1280,"width":1920,"blurDataURL":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoKCgoKCgsMDAsPEA4QDxYUExMUFiIYGhgaGCIzICUgICUgMy03LCksNy1RQDg4QFFeT0pPXnFlZXGPiI+7u/sBCgoKCgoKCwwMCw8QDhAPFhQTExQWIhgaGBoYIjMgJSAgJSAzLTcsKSw3LVFAODhAUV5PSk9ecWVlcY+Ij7u7+//CABEIAAUACAMBIgACEQEDEQH/xAAmAAEAAAAAAAAAAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAAAAAAD/9oADAMBAAIQAxAAAAACf//EABsQAAIDAAMAAAAAAAAAAAAAAAECAwQRAAUS/9oACAEBAAE/ABbkh62a4qR6rpoI0sMzPXP/xAAXEQEAAwAAAAAAAAAAAAAAAAABAAIS/9oACAECAQE/AFdWn//EABgRAAIDAAAAAAAAAAAAAAAAAAECABIh/9oACAEDAQE/AEAouT//2Q=="});
 ;// CONCATENATED MODULE: ./public/assets/banner4.jpg
 /* harmony default export */ const banner4 = ({"src":"/_next/static/media/banner4.90b89222.jpg","height":440,"width":860,"blurDataURL":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoKCgoKCgsMDAsPEA4QDxYUExMUFiIYGhgaGCIzICUgICUgMy03LCksNy1RQDg4QFFeT0pPXnFlZXGPiI+7u/sBCgoKCgoKCwwMCw8QDhAPFhQTExQWIhgaGBoYIjMgJSAgJSAzLTcsKSw3LVFAODhAUV5PSk9ecWVlcY+Ij7u7+//CABEIAAQACAMBIgACEQEDEQH/xAAnAAEBAAAAAAAAAAAAAAAAAAAABAEBAAAAAAAAAAAAAAAAAAAABP/aAAwDAQACEAMQAAAApB0//8QAGhAAAgMBAQAAAAAAAAAAAAAAAQIDBBEABf/aAAgBAQABPwDya1cWdWGNWMZ1gg3v/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAJCcv/aAAgBAgEBPwCUyf/EABcRAAMBAAAAAAAAAAAAAAAAAAACQXL/2gAIAQMBAT8Ar6P/2Q=="});
-;// CONCATENATED MODULE: external "react-bootstrap/Modal"
-const Modal_namespaceObject = require("react-bootstrap/Modal");
-var Modal_default = /*#__PURE__*/__webpack_require__.n(Modal_namespaceObject);
+// EXTERNAL MODULE: external "react-bootstrap/Modal"
+var Modal_ = __webpack_require__(9306);
+var Modal_default = /*#__PURE__*/__webpack_require__.n(Modal_);
 ;// CONCATENATED MODULE: ./public/assets/full-stack-hero.jpg
 /* harmony default export */ const full_stack_hero = ({"src":"/_next/static/media/full-stack-hero.41c2707f.jpg","height":934,"width":1400,"blurDataURL":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoKCgoKCgsMDAsPEA4QDxYUExMUFiIYGhgaGCIzICUgICUgMy03LCksNy1RQDg4QFFeT0pPXnFlZXGPiI+7u/sBCgoKCgoKCwwMCw8QDhAPFhQTExQWIhgaGBoYIjMgJSAgJSAzLTcsKSw3LVFAODhAUV5PSk9ecWVlcY+Ij7u7+//CABEIAAUACAMBIgACEQEDEQH/xAAoAAEBAAAAAAAAAAAAAAAAAAAABgEBAQAAAAAAAAAAAAAAAAAAAQP/2gAMAwEAAhADEAAAAJAUP//EAB4QAAICAAcAAAAAAAAAAAAAAAECAwQABRITMVNh/9oACAEBAAE/ALmZ2abxuztPPs6zLIewEceDH//EABkRAQACAwAAAAAAAAAAAAAAAAEAEQIyYf/aAAgBAgEBPwDHUaLeT//EABkRAQADAQEAAAAAAAAAAAAAAAECESEAMf/aAAgBAwEBPwBiMk3K8a7/2Q=="});
 ;// CONCATENATED MODULE: ./public/assets/back-end-hero.jpg
@@ -2867,7 +2867,7 @@ function index() {
                                                 }),
                                                 /*#__PURE__*/ jsx_runtime_.jsx("li", {
                                                     children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                                        href: "https://g.page/zayn-academy?share",
+                                                        href: "https://goo.gl/maps/MBQdWtrKCSdCTXcn9?share",
                                                         target: "blank",
                                                         children: /*#__PURE__*/ jsx_runtime_.jsx("i", {
                                                             class: "text-map fas fa-map-marker-alt",
@@ -2978,6 +2978,13 @@ module.exports = require("react-bootstrap");
 
 /***/ }),
 
+/***/ 9306:
+/***/ ((module) => {
+
+module.exports = require("react-bootstrap/Modal");
+
+/***/ }),
+
 /***/ 997:
 /***/ ((module) => {
 
@@ -2992,7 +2999,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [311,910,675,152], () => (__webpack_exec__(6837)));
+var __webpack_exports__ = __webpack_require__.X(0, [311,910,675,152], () => (__webpack_exec__(9733)));
 module.exports = __webpack_exports__;
 
 })();
