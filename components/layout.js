@@ -1,14 +1,19 @@
 import Header from "./Header";
 import Footer from "./Footer";
+import { useRouter } from "next/router";
 
 
 const layout = ({children}) => {
+
+  const router = useRouter();
+  const showHeader = router.pathname === "/joinus" ? false : true;
+
   
   return (
     <div>
-        <Header/>
+      {showHeader && <Header/>}
             {children}
-        <Footer/>
+       {showHeader && <Footer/>}
     </div>
   )
 }

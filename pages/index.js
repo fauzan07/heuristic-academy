@@ -146,7 +146,7 @@ import SchoolEnrollmentForm from '../components/SchoolEnrollmentForm/SchoolEnrol
     
     
   return (
-        <>
+        <main className="home-page">
 
       <section className="home-banner-area">
       <Container fluid>
@@ -414,7 +414,7 @@ import SchoolEnrollmentForm from '../components/SchoolEnrollmentForm/SchoolEnrol
                     <p><a href="tel:+917039794283">+91 7039794283</a></p>
                     <p><a href="tel:+919987056292">+91 9987056292</a></p>
                     <div class="icon mb-3"><i class="fa fa-envelope"></i><b> Mail Us At</b></div>
-                    <p><a href="https://gmail.com" target="blank">Info@heuristicacademy.in</a></p>
+                    <p><a href="https://mail.google.com/mail/?view=cm&fs=1&to=Info@heuristicacademy.in&su=SUBJECT&body=BODY" target="blank">Info@heuristicacademy.in</a></p>
                     <ul class="d-flex list-unstyled ">
                       <li><a href="https://api.whatsapp.com/send?phone=+917039794283" target="blank"><i class="text-facebook fab fa-whatsapp" aria-hidden="true"></i></a></li>
                       <li><a href="https://www.instagram.com/heuristic_academy/" target="blank"><i class="text-insta fab fa-instagram" aria-hidden="true"></i></a></li>            
@@ -436,7 +436,7 @@ import SchoolEnrollmentForm from '../components/SchoolEnrollmentForm/SchoolEnrol
           <SchoolEnrollmentForm/>
       </div>
     </div>
-      </>
+      </main>
   )
 }
 

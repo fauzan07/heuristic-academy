@@ -3,9 +3,9 @@ body{
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
-    padding-top: 50px;
+    /* padding-top: 50px; */
     line-height: 1.5;
-    background-color: #fff!important;
+    background-color: #fff;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -112,6 +112,11 @@ img{
 }
 
 /*--------section header end---------*/
+
+.home-page{
+  padding-top: 50px;
+
+}
 
 .container-fluid {
     width: 100%;
@@ -266,6 +271,26 @@ img{
 .btn-choose:hover{
   background: #ec6631;
   color: #fff;
+}
+.joinus{
+  background-color: #962a30;
+  padding-top: 20px;
+  height: 100vh;
+}
+
+.joinnow-buton{
+  width: 100%;
+  border-radius: 20px;
+  padding: 10px 0px;
+  font-weight: 600;
+  line-height: 27px;
+  font-size: 18px;
+}
+
+.btn-white{
+  background-color:#fff;
+  border-color: #962a30;
+  color: #962a30;
 }
 
 
