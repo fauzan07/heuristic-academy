@@ -31,7 +31,7 @@ import Link from 'next/link'
               <Col lg="8" md={6}>
                 <div className="text-center">
                     <a class="btn btn-white joinnow-buton my-2" href="/assets/course-bro.pdf" download><HiComputerDesktop /> Our Courses</a>
-                    <a class="btn btn-white joinnow-buton my-2" href="/assets/coaching-bro.pdf" download><GiTeacher /> Our Coaching</a>
+                    <a class="btn btn-white joinnow-buton my-2" href="/assets/coaching-bro.pdf" download><GiTeacher /> Our ICSE/SSC Coaching</a>
                     <a class="btn btn-white joinnow-buton my-2" href="/assets/summer-camp-bro.pdf" download><FaPaintBrush /> Summer Camp</a>
                 <Link href="https://heuristicacademy.in/" passHref>
                     <a class="btn btn-white joinnow-buton my-2" target="_blank" rel="noopener noreferrer"><TfiWorld /> Website</a>

@@ -5,6 +5,7 @@ import ScrollToTop from "react-scroll-to-top";
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import Image from "next/image";
+import Link from 'next/link';
 
 const Footer = () => {
 
@@ -67,16 +68,15 @@ document.getElementById("mySchSidenav").style.width = "380px";
 
     <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title><h3>ICSE Admission Open</h3></Modal.Title>
+          <Modal.Title><h3>Summer Camp Admission Open</h3></Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <Image
-              key=""
               width="480" 
               height="480"
               objectFit="contain"
-              src="/assets/icse-admission.png"
-              alt=""
+              src="/assets/summer-camp.png"
+              alt="summercamp"
               loading="eager"
             />
         </Modal.Body>
@@ -84,9 +84,12 @@ document.getElementById("mySchSidenav").style.width = "380px";
           <Button variant="secondary" onClick={handleClose}>
             Close
           </Button>
-          <Button variant="primary" onClick={openSchNav}>
+          {/* <Button variant="primary" onClick={openSchNav}>
             Enroll Now
-          </Button>
+          </Button> */}
+          <Link href="https://bit.ly/3TrKZr1">
+            <a className="btn btn-primary" target="_blank" rel="noopener noreferrer">Enroll Now</a>
+          </Link>
         </Modal.Footer>
       </Modal>
 

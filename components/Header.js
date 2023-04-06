@@ -34,6 +34,8 @@ const Header = () => {
     <meta name="theme-color" content="#000000" />
     <meta name="description" content="Web site created using create-react-app"/>
 
+    <link rel="shortcut icon" href="/favicon.ico" />
+
     <link rel="preconnect" href="https://fonts.gstatic.com"/>
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"/>
@@ -43,9 +45,6 @@ const Header = () => {
 
     {/* //  <!-- Google tag (gtag.js) --> */}
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-6JW6YCP2XW"></script>
-      {/* <script> */}
-       
-      {/* </script> */}
   
   </Head>
   <header>
