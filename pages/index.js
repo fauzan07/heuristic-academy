@@ -182,7 +182,7 @@ import SchoolEnrollmentForm from '../components/SchoolEnrollmentForm/SchoolEnrol
                         alt="Third slide"
                         />
                     <div class="banner-tarea">
-                        <h3 className="banner-text">6 Month Designed Curriculum <br/> with Offline Hands-on Training</h3>
+                        <h3 className="banner-text">6 to 8 Month Designed Curriculum <br/> with Offline Hands-on Training</h3>
                         <a onClick={openNav} class="btn-banner">Enroll Now</a>                        
                     </div>
                     </Carousel.Item>
@@ -290,7 +290,7 @@ import SchoolEnrollmentForm from '../components/SchoolEnrollmentForm/SchoolEnrol
               <Col lg="7" md={6}>
               <h4>Heuristic Academy provide you</h4>
                   <ul>
-                      <li className="py-2">- 6 Months Intense Traning </li>
+                      <li className="py-2">- 6 to 8 Months Intense Traning </li>
                       <li className="py-2">- Offline E-Learning With Industrial Professionals </li>
                       <li className="py-2">- Hands On Experience On 10 Live Projects </li>
                       <li className="py-2">- Communication Skills Development </li>

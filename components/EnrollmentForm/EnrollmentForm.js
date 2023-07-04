@@ -231,6 +231,8 @@ const EnrollmentForm = () => {
                 value={selectedCourse} 
                 onChange={(event) => setSelectedCourse(event.target.value)}>
                     <option value="">Select Course</option>
+                    <option value="Ethical Hacking">Ethical Hacking</option>
+                    <option value="MERN stack Development">MERN stack Development</option>
                     <option value="Full stack Development">Full stack Development</option>
                     <option value="Front end Development">Front end Development</option>
                     <option value="Back end Development">Back end Development</option>

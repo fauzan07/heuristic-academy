@@ -68,14 +68,14 @@ document.getElementById("mySchSidenav").style.width = "380px";
 
     <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title><h3>Summer Camp Admission Open</h3></Modal.Title>
+          <Modal.Title><h3>Diploma & Degree Admission Open</h3></Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <Image
               width="480" 
               height="480"
               objectFit="contain"
-              src="/assets/summer-camp.png"
+              src="/assets/degree-admision.jpg"
               alt="summercamp"
               loading="eager"
             />
@@ -87,7 +87,7 @@ document.getElementById("mySchSidenav").style.width = "380px";
           {/* <Button variant="primary" onClick={openSchNav}>
             Enroll Now
           </Button> */}
-          <Link href="https://bit.ly/3TrKZr1">
+          <Link href="https://forms.gle/JHU3PvC44rZpNducA">
             <a className="btn btn-primary" target="_blank" rel="noopener noreferrer">Enroll Now</a>
           </Link>
         </Modal.Footer>

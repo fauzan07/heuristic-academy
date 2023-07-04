@@ -40,7 +40,7 @@ function Courses() {
         },
     }
     
-
+    const [showMS, setShowMS] = useState(false);
     const [showFS, setShowFS] = useState(false);
     const [showFE, setShowFE] = useState(false);
     const [showBE, setShowBE] = useState(false);
@@ -80,16 +80,16 @@ function Courses() {
                         <h3 class="card-title text-primary ms-3 mt-2">MERN Stack Development</h3>
                         <hr className='my-4'/>
                         <ul>
-                            <li className='mb-2'>6 Months Intense Training</li>
+                            <li className='mb-2'>8 Months Intense Training</li>
                             <li className='mb-2'>Flexible Timings Per Course</li>
                             <li className='mb-2'>Certificate of Completion</li>
                             <li className='mb-2'>Resume & Interview Training</li>
                         </ul>
-                        <button className="btn btn-sm btn-outline-primary ms-3 mt-3" onClick={() => setShowFS(true)}>Learn More</button>
+                        <button className="btn btn-sm btn-outline-primary ms-3 mt-3" onClick={() => setShowMS(true)}>Learn More</button>
                         </div>
                         <Modal
-                            show={showFS}
-                            onHide={() => setShowFS(false)}
+                            show={showMS}
+                            onHide={() => setShowMS(false)}
                             dialogClassName="modal-90w"
                             aria-labelledby="contained-modal-title-vcenter"
                             size="lg"
@@ -111,7 +111,7 @@ function Courses() {
                             <h4 className="my-4 ">Get started with the MERN Stack Developer Program and explore everything about the program.</h4>
                             <p>
                             MERN Stack Development is a software profession where a developer deals with both the Frontend (client-side) and Backend (server-side) of a tech product. A Full Stack Developer is proficient in several technologies that help in developing a robust tech product, and thus play a major role in making decisions for the company. It is among the high-demand jobs in the software industry.
-                            The 6-month Programme in Full stack Developer  enables learners to build deep tech capabilities and apply their learnings to make a static and Dynamic Website which can be used in E-Commerce or business Driven or can be a Data Accumulation Web Application,with Technologies such as React.js , Node.js , Express.js, Mongo DB , JS , GIT , HTML5,CSS3 ,Bootstrap among the many more
+                            The 8-month Programme in Full stack Developer  enables learners to build deep tech capabilities and apply their learnings to make a static and Dynamic Website which can be used in E-Commerce or business Driven or can be a Data Accumulation Web Application,with Technologies such as React.js , Node.js , Express.js, Mongo DB , JS , GIT , HTML5,CSS3 ,Bootstrap among the many more
                             Participants will experience a unique learning process that includes offline masterclass lectures, hands-on labs, hackathons, workshops, industry interactions & Career counselling.
                             </p>
                             <div className="d-flex justify-content-between">
