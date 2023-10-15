@@ -407,7 +407,7 @@ import SchoolEnrollmentForm from '../components/SchoolEnrollmentForm/SchoolEnrol
                 </Col>
                 <Col lg={6} className="mt-3">
                     <div class="icon mb-3"><i class="fas fa-map-marker-alt"></i> <b>Our Academy</b></div>
-                    <p>1,United Apartments, Opp Richardson & Crudas Ltd, Nagpada, Mumbai - 400008</p>
+                    <p>Shop no 4, Ground Floor, Mohammedi Building, 2nd Peerkhan St, Nagpada, Mumbai : 400008</p>
                     <div class="icon mb-3"><i class="far fa-clock"></i> <b>Open Office Hours</b></div>
                     <p>Mon-Sun: 10am – 9pm</p>
                     <div class="icon mb-3"><i class="fa fa-phone"></i><b> Get in Touch</b></div>
@@ -418,7 +418,7 @@ import SchoolEnrollmentForm from '../components/SchoolEnrollmentForm/SchoolEnrol
                     <ul class="d-flex list-unstyled ">
                       <li><a href="https://api.whatsapp.com/send?phone=+917039794283" target="blank"><i class="text-facebook fab fa-whatsapp" aria-hidden="true"></i></a></li>
                       <li><a href="https://www.instagram.com/heuristic_academy/" target="blank"><i class="text-insta fab fa-instagram" aria-hidden="true"></i></a></li>            
-                      <li><a href="https://goo.gl/maps/MBQdWtrKCSdCTXcn9?share" target="blank"><i class="text-map fas fa-map-marker-alt" aria-hidden="true"></i></a></li>            
+                      <li><a href="https://maps.app.goo.gl/hvgzitchHdTduCF38?share" target="blank"><i class="text-map fas fa-map-marker-alt" aria-hidden="true"></i></a></li>            
                   </ul>
                 </Col>
             </Row>
