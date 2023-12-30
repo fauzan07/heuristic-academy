@@ -27,26 +27,27 @@ import Link from 'next/link'
                 />
               </div>
               <h4 className="text-center text-white"> Accelerate your Career</h4>
-              <h4 className="text-center text-white">Join Us We Can Help You Succeed.</h4>
+              <h4 className="text-center text-white">Join Us We Can Help You Succeed</h4>
               <Col lg="8" md={6}>
                 <div className="text-center">
-                    <a class="btn btn-white joinnow-buton my-2" href="/assets/course-bro.pdf" download><HiComputerDesktop /> Our Courses</a>
-                    <a class="btn btn-white joinnow-buton my-2" href="/assets/coaching-bro.pdf" download><GiTeacher /> Our ICSE/SSC Coaching</a>
-                    <a class="btn btn-white joinnow-buton my-2" href="/assets/summer-camp-bro.pdf" download><FaPaintBrush /> Summer Camp</a>
+                    <a class="btn btn-white joinnow-buton my-2" href="/assets/courses-bro.pdf" download><HiComputerDesktop /> Our Job Ready Courses</a>
+                    <a class="btn btn-white joinnow-buton my-2" href="/assets/college-bro.pdf" download><GiTeacher /> Our Collage Coaching</a>
+                    <a class="btn btn-white joinnow-buton my-2" href="/assets/coaching-bro.pdf" download><GiTeacher /> Our School Coaching</a>
+                    <a class="btn btn-white joinnow-buton my-2" href="/assets/ex-cur-activity-bro.pdf" download><FaPaintBrush />Our Extracurricular Activities</a>
                 <Link href="https://heuristicacademy.in/" passHref>
                     <a class="btn btn-white joinnow-buton my-2" target="_blank" rel="noopener noreferrer"><TfiWorld /> Website</a>
                 </Link>
                 <Link href="https://www.instagram.com/heuristic_academy/" passHref>
                     <a class="btn btn-white joinnow-buton my-2" target="_blank" rel="noopener noreferrer"><FaInstagram /> Instagram</a>
                 </Link>
-                <Link href="https://api.whatsapp.com/send?phone=+917039794283" passHref>
+                <Link href="https://api.whatsapp.com/send?phone=7039794283" passHref>
                     <a class="btn btn-white joinnow-buton my-2" target="_blank" rel="noopener noreferrer"><FaWhatsapp /> Whatsapp</a>
                 </Link>
                 <Link href="https://mail.google.com/mail/?view=cm&fs=1&to=Info@heuristicacademy.in&su=SUBJECT&body=BODY" passHref>
                     <a class="btn btn-white joinnow-buton my-2" target="_blank" rel="noopener noreferrer"><TfiEmail /> Email</a>
                 </Link>
-                <Link href="https://goo.gl/maps/MBQdWtrKCSdCTXcn9?share" passHref>
-                    <a class="btn btn-white joinnow-buton my-2" target="_blank" rel="noopener noreferrer"><FaMapMarkerAlt /> Location</a>
+                <Link href="https://maps.app.goo.gl/hvgzitchHdTduCF38?share" passHref>
+                    <a class="btn btn-white joinnow-buton my-2" target="_blank" rel="noopener noreferrer"><FaMapMarkerAlt /> Address</a>
                 </Link>
                 </div>
               </Col>
