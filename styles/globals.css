@@ -341,4 +341,10 @@ img{
   .testi-para{
     height: 200px;
   }
+
+  .joinus{
+    background-color: #962a30;
+    padding-top: 20px;
+    height: auto;
+  }
 }
