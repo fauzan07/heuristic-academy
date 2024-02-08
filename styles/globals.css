@@ -275,7 +275,7 @@ img{
 .joinus{
   background-color: #962a30;
   padding-top: 20px;
-  height: 100vh;
+  height: auto;
 }
 
 .joinnow-buton{

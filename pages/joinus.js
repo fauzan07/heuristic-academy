@@ -5,6 +5,9 @@ import { FaInstagram, FaWhatsapp, FaPaintBrush, FaMapMarkerAlt } from 'react-ico
 import { TfiEmail, TfiWorld } from "react-icons/tfi";
 import { HiComputerDesktop } from "react-icons/hi2";
 import { GiTeacher } from "react-icons/gi";
+import { VscFeedback } from "react-icons/vsc";
+import { FaPhoneAlt } from "react-icons/fa";
+import { FaStar } from "react-icons/fa";
 import Link from 'next/link'
 
 
@@ -43,11 +46,20 @@ import Link from 'next/link'
                 <Link href="https://api.whatsapp.com/send?phone=7039794283" passHref>
                     <a class="btn btn-white joinnow-buton my-2" target="_blank" rel="noopener noreferrer"><FaWhatsapp /> Whatsapp</a>
                 </Link>
+                <Link href="tel:+917039794283" passHref>
+                    <a class="btn btn-white joinnow-buton my-2" target="_blank" rel="noopener noreferrer"><FaPhoneAlt/> Call us</a>
+                </Link>
                 <Link href="https://mail.google.com/mail/?view=cm&fs=1&to=Info@heuristicacademy.in&su=SUBJECT&body=BODY" passHref>
                     <a class="btn btn-white joinnow-buton my-2" target="_blank" rel="noopener noreferrer"><TfiEmail /> Email</a>
                 </Link>
                 <Link href="https://maps.app.goo.gl/hvgzitchHdTduCF38?share" passHref>
                     <a class="btn btn-white joinnow-buton my-2" target="_blank" rel="noopener noreferrer"><FaMapMarkerAlt /> Address</a>
+                </Link>
+                <Link href="https://forms.gle/V1CiqJabkDzkpQdv7" passHref>
+                    <a class="btn btn-white joinnow-buton my-2" target="_blank" rel="noopener noreferrer"><VscFeedback /> Give us a feedback</a>
+                </Link>
+                <Link href="https://g.co/kgs/VCGFPDw" passHref>
+                    <a class="btn btn-white joinnow-buton my-2" target="_blank" rel="noopener noreferrer"><FaStar/> Give us a Google Rating</a>
                 </Link>
                 </div>
               </Col>

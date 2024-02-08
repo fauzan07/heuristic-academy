@@ -416,7 +416,7 @@ import SchoolEnrollmentForm from '../components/SchoolEnrollmentForm/SchoolEnrol
                     <div class="icon mb-3"><i class="fa fa-envelope"></i><b> Mail Us At</b></div>
                     <p><a href="https://mail.google.com/mail/?view=cm&fs=1&to=Info@heuristicacademy.in&su=SUBJECT&body=BODY" target="blank">Info@heuristicacademy.in</a></p>
                     <ul class="d-flex list-unstyled ">
-                      <li><a href="https://api.whatsapp.com/send?phone=7039794283" target="blank"><i class="text-facebook fab fa-whatsapp" aria-hidden="true"></i></a></li>
+                      <li><a href="https://api.whatsapp.com/send?phone=917039794283" target="blank"><i class="text-facebook fab fa-whatsapp" aria-hidden="true"></i></a></li>
                       <li><a href="https://www.instagram.com/heuristic_academy/" target="blank"><i class="text-insta fab fa-instagram" aria-hidden="true"></i></a></li>            
                       <li><a href="https://maps.app.goo.gl/hvgzitchHdTduCF38?share" target="blank"><i class="text-map fas fa-map-marker-alt" aria-hidden="true"></i></a></li>            
                   </ul>
