@@ -348,3 +348,17 @@ img{
     height: auto;
   }
 }
+
+.navbtn{
+  .owl-theme .owl-nav{
+    text-align: center !important;
+    margin-top: 0px;
+  }
+}
+.tbl-hd-bdr{
+  .table{
+      border-color: #fff ;
+      border-collapse: unset;
+    
+  }
+}
