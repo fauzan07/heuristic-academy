@@ -1,4 +1,16 @@
 {
+  "../components/Courses/Courses.js -> react-owl-carousel": {
+    "id": "../components/Courses/Courses.js -> react-owl-carousel",
+    "files": [
+      "static/chunks/node_modules_react-owl-carousel_umd_OwlCarousel_js.js"
+    ]
+  },
+  "../components/Testimonials/Testimonials.js -> react-owl-carousel": {
+    "id": "../components/Testimonials/Testimonials.js -> react-owl-carousel",
+    "files": [
+      "static/chunks/node_modules_react-owl-carousel_umd_OwlCarousel_js.js"
+    ]
+  },
   "../components/ramadan-timetable/time-table.js -> react-owl-carousel": {
     "id": "../components/ramadan-timetable/time-table.js -> react-owl-carousel",
     "files": [

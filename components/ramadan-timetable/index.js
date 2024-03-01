@@ -69,6 +69,25 @@ const Index = () => {
         <Timetable styles={styles} />
       </section>
 
+      <section className={`${styles['tarvih']} my-4`}>
+      <Container>
+            <Row>
+            <Col lg={12} className="mt-3">
+            <h1>Ramadan Tarawih Prayers at Heuristic Academy</h1>
+            <p>Assalamu Alaikum,</p>
+            <p>As we embrace the blessed month of Ramadan, we are delighted to announce that Tarawih prayers will be held at <strong>[Heuristic Academy]</strong>. Join us in congregation as we engage in this beautiful tradition of night prayers.</p>
+            <ul>
+              <li> 🕋<strong>Location:</strong> Office no 4, Ground Floor, Mohammedi Building, 2nd Peerkhan St, Nagpada, Mumbai : 400008</li><br/>
+              <li>📅<strong>Date:</strong> Every night during Ramadan</li><br/>
+              <li>🕣 <strong>Time:</strong> Isha at 8:45 PM, Tarawih promptly at 9:00 PM</li>
+            </ul>
+            <p>Let us come together as a community to seek the mercy and blessings of Allah (SWT) during this sacred month. We look forward to welcoming you and your family.</p>
+            <p>Jazakumullahu Khairan.</p>
+                </Col>
+                </Row>
+                </Container>
+      </section>
+
       <section className={`${styles["key-dates"]} py-4`}>
         <Container>
           <Row>
@@ -203,7 +222,7 @@ const Index = () => {
                     <div class="icon mb-3"><i class="fas fa-map-marker-alt"></i> <b>Our Academy</b></div>
                     <p>Shop no 4, Ground Floor, Mohammedi Building, 2nd Peerkhan St, Nagpada, Mumbai : 400008</p>
                     <div class="icon mb-3"><i class="far fa-clock"></i> <b>Open Office Hours</b></div>
-                    <p>Mon-Sun: 10am – 9pm</p>
+                    <p>Mon-Sun: 10am - 9pm</p>
                     <div class="icon mb-3"><i class="fa fa-phone"></i><b> Get in Touch</b></div>
                     <p><a href="tel:+917039794283">+91 7039794283</a></p>
                     <p><a href="tel:+919987056292">+91 9987056292</a></p>

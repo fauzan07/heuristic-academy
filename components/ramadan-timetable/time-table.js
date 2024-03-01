@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef, useEffect, useState } from 'react';
 import { Container, Row, Col, Table } from "react-bootstrap";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
@@ -31,6 +31,65 @@ const Timetable = ({ styles }) => {
     },
   };
 
+
+  
+  // const carouselRef = useRef(null);
+  // const tableRef = useRef(null);
+  // const [allowCarouselChange, setAllowCarouselChange] = useState(true);
+
+  // useEffect(() => {
+  //   const handleTableScroll = () => {
+  //     setAllowCarouselChange(false);
+  //     setTimeout(() => {
+  //       setAllowCarouselChange(true);
+  //     }, 100); // Adjust the delay if needed
+  //   };
+
+  //   const tableElement = tableRef.current;
+
+  //   if (tableElement) {
+  //     tableElement.addEventListener('scroll', handleTableScroll);
+  //   }
+
+  //   return () => {
+  //     if (tableElement) {
+  //       tableElement.removeEventListener('scroll', handleTableScroll);
+  //     }
+  //   };
+  // }, [tableRef]);
+
+  // const handleCarouselChange = (event) => {
+  //   if (!allowCarouselChange) {
+  //     event.preventDefault();
+  //     event.stopImmediatePropagation();
+  //   }
+  // };
+
+
+  const carouselRef = useRef(null);
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 768); // Adjust the breakpoint if needed
+    };
+
+    handleResize(); // Initial check
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
+  const handleCarouselChange = (event) => {
+    if (isMobile) {
+      event.preventDefault();
+      event.stopImmediatePropagation();
+    }
+  };
+
   return (
     <>
       <Container>
@@ -38,6 +97,7 @@ const Timetable = ({ styles }) => {
           <Col lg={12}>
             <div className={`${styles['tbl-bdr']} navbtn`}>
             <OwlCarousel
+              ref={carouselRef}
               className="owl-theme"
               responsive={state.responsive}
               loop
@@ -46,7 +106,7 @@ const Timetable = ({ styles }) => {
               autoplayTimeout={5000}
               dots={false}
             >
-              <div className="tbl-hd-bdr">
+              <div ref={carouselRef} className="tbl-hd-bdr">
                 <div className="text-center">
                 <h4 style={{color:'#962a30'}}>First Ashra - First 10 Days of Ramadan</h4>
                 <p>Ramadan 1445</p>
